@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishimwe Kevin - Blog Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo"><a href="index.html" class="nav-link">IK.</a></div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Back to Portfolio</a></li>
+        </ul>
+    </nav>
+
+    <!-- Blog Dashboard Section -->
+    <section id="dashboard" class="dashboard-section section-container">
+        <h2 class="section-heading">Blog Dashboard</h2>
+        <form id="blog-form" class="blog-form">
+            <div class="form-group">
+                <label for="blog-title">Title</label>
+                <input type="text" id="blog-title" name="title" placeholder="Blog Title" required>
+            </div>
+            <div class="form-group">
+                <label for="blog-date">Date</label>
+                <input type="date" id="blog-date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="blog-content">Content</label>
+                <textarea id="blog-content" name="content" placeholder="Blog Content" required></textarea>
+            </div>
+            <input type="hidden" id="blog-id">
+            <button type="submit" class="btn-primary">Add Blog</button>
+        </form>
+
+        <h3 class="sub-heading">All Blog</h3>
+        <div id="blog-list">
+            <!-- Blog posts will be dynamically added here -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Ishimwe Kevin. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://x.com/ishimwekevin287"><img src="https://img.icons8.com/ios-filled/24/000000/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="https://img.icons8.com/ios-filled/24/000000/linkedin.png" alt="LinkedIn"></a>
+            <a href="#"><img src="https://img.icons8.com/ios-filled/24/000000/instagram.png" alt="instagram"></a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

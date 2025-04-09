@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishimwe Kevin - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">IK.</div>
+        <ul class="nav-links" id="link">
+            <li><a href="#hero" class="nav-link">Home</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#Education" class="nav-link">Education</a></li>
+            <li><a href="#Blog" class="nav-link">Blog</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+            <li><a href="dashboard.html" class="nav-link">Blog Dashboard</a></li>
+        </ul>
+        <button class="menu-toggle" onclick="showLink()" id="menu-btn">
+            <svg class="menu-icon" width="30" height="30" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none" id="svg">
+                <path fill="#303030" fill-rule="evenodd" d="M18 5a1 1 0 100-2H2a1 1 0 000 2h16zm0 4a1 1 0 100-2H2a1 1 0 100 2h16zm1 3a1 1 0 01-1 1H2a1 1 0 110-2h16a1 1 0 011 1zm-1 5a1 1 0 100-2H2a1 1 0 100 2h16z"/>
+            </svg>
+        </button>
+        <button class="close-btn" id="close" style="display: none;" onclick="hideLink()">
+            <svg class="menu-icon" width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="Menu / Close_MD">
+                    <path id="Vector" d="M18 18L12 12M12 12L6 6M12 12L18 6M12 12L6 18" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+            </svg>
+        </button>
+    </nav>
+
+
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-card">
+            <span class="role-tag">Software Developer</span>
+            <h1 class="hero-title"><span class="name">Ishimwe</span> Kevin</h1>
+            <img src="image/profile.png" alt="">
+            <p class="hero-text">
+                Crafting beautiful, functional digital experiences with clean code and creativity, I build modern web applications that solve real-world problems.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">View My Work</a>
+                <a href="#contact" class="btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+
+
+
+
+        <!-- Floating Leaves -->
+        <div class="leaf leaf-1"></div>
+        <div class="leaf leaf-2"></div>
+        <div class="leaf leaf-3"></div>
+        <div class="leaf leaf-4"></div>
+        <div class="leaf leaf-5"></div>
+        <div class="leaf leaf-6"></div>
+        <div class="leaf leaf-7"></div>
+        <div class="leaf leaf-8"></div>
+        <div class="leaf leaf-9"></div>
+        <div class="leaf leaf-10"></div>
+        <div class="leaf leaf-11"></div>
+        <div class="leaf leaf-12"></div>
+        <div class="leaf leaf-13"></div>
+        <div class="leaf leaf-14"></div>
+        <div class="leaf leaf-15"></div>
+        <div class="leaf leaf-16"></div>
+        <div class="leaf leaf-17"></div>
+        <div class="leaf leaf-18"></div>
+        <div class="leaf leaf-19"></div>
+        <div class="leaf leaf-20"></div>
+        <!-- Scroll Indicator -->
+        <a href="#projects"><div class="scroll-indicator">↓</div></a>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section-container">
+        <h2 class="section-heading">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="image-wrapper">
+                    <img src="image/EcoShop.png" alt="EcoShop Dashboard" class="app-image">
+                    <div class="overlay">
+                        <a href="https://github.com" target="_blank" class="icon-link github-icon"></a>
+                        <a href="#" target="_blank" class="icon-link project-icon"></a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">EcoShop</h3>
+                    <p>An e-commerce platform for sustainable products</p>
+                    <p class="tech-stack">Technologies: nodejs & react</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="image-wrapper">
+                    <img src="image/NatureBlog.png" alt="NatureBlog Dashboard" class="app-image">
+                    <div class="overlay">
+                        <a href="https://github.com" target="_blank" class="icon-link github-icon"></a>
+                        <a href="#" target="_blank" class="icon-link project-icon"></a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">NatureBlog</h3>
+                    <p>A blogging platform focused on environmental topics</p>
+                    <p class="tech-stack">Technologies: React Native,Express,</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="image-wrapper">
+                    <img src="image/GreenTracker.png" alt="GreenTracker Dashboard" class="app-image">
+                    <div class="overlay">
+                        <a href="https://github.com" target="_blank" class="icon-link github-icon"></a>
+                        <a href="#" target="_blank" class="icon-link project-icon"></a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">GreenTracker</h3>
+                    <p>A carbon footprint tracking app,</p>
+                    <p class="tech-stack">Technologies:nodejs & react native</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="Education">
+        <h2 class="section-heading">Education</h2>
+        <div class="education-item">
+            <h3>Saint Albert Nyarubaka</h3>
+            <p>Ordinary Level (O-Level)</p>
+            <p>2018 - 2023</p>
+        </div>
+        <div class="education-item">
+            <h3>Kiyumba TSS</h3>
+            <p>Advanced Level (A-Level)</p>
+            <p>2023 - Present</p>
+        </div>
+        <div class="education-item">
+            <h3>Online Skills Certificate</h3>
+            <p>Skills on use of social media</p>
+            <p>2025</p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="Blog" class="blog-section section-container">
+        <h2 class="section-heading">My Blog</h2>
+        <div class="blog-grid" id="blog-posts">
+            <!-- Blog posts will be dynamically added here -->
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact-section section-container">
+        <h2 class="section-heading">Get in Touch</h2>
+        <form id="contact-form" class="contact-form" action="emailTo:ishimwekevin2007@gmail.com">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Send Message</button>
+            <p id="form-message"></p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Ishimwe Kevin. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://x.com/ishimwekevin287"><img src="https://img.icons8.com/ios-filled/24/000000/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="https://img.icons8.com/ios-filled/24/000000/linkedin.png" alt="LinkedIn"></a>
+            <a href="#"><img src="https://img.icons8.com/ios-filled/24/000000/instagram.png" alt="instagram"></a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/index.js"></script>
+</body>
+</html>
